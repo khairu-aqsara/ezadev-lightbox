@@ -1,0 +1,32 @@
+{
+    "name": "ezadev/lightbox",
+    "description": "Turn grid into a lightbox & gallery",
+    "type": "library",
+    "homepage": "https://github.com/khairu-aqsara/ezadev-lightbox",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khairu Aqsara",
+            "email": "khairu.aqsara@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "Ezadev/admin": "^0.5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ezadev\\Grid\\Lightbox\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ezadev\\Grid\\Lightbox\\LightboxServiceProvider"
+            ]
+        }
+    }
+}
