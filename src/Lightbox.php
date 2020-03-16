@@ -2,7 +2,7 @@
 
 namespace Ezadev\Grid\Lightbox;
 
-use Encore\Admin\Extension;
+use Ezadev\Admin\Extension;
 
 class Lightbox extends Extension
 {
